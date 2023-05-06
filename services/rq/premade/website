@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://olamweb.phonesallowed.repl.co/images/favicon.ico" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+	
+
+    <title>OlamWeb - Pre-Made Websites</title>
+    <style>
+      /* Style the container of the post */
+      .post-container {
+        margin: 50px auto;
+        max-width: 600px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: transform 0.2s ease-in-out;
+      }
+      
+      /* Style the post image */
+      .post-image {
+        width: 100%;
+        height: auto;
+        border-radius: 10px 10px 0 0;
+      }
+      
+      /* Style the post content */
+      .post-content {
+        padding: 20px;
+      }
+      
+      /* Hide the post content by default */
+      .post-content.hide {
+        display: none;
+      }
+      
+      /* Style the post title */
+      .post-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 0 0 10px;
+      }
+      
+      /* Style the post description */
+      .post-description {
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0;
+      }
+      
+      /* Style the post tags */
+      .post-tags {
+        margin: 10px 0 0;
+      }
+      
+      /* Style the individual tag */
+      .post-tag {
+        display: inline-block;
+        font-size: 14px;
+        padding: 5px 10px;
+        background-color: #eee;
+        border-radius: 20px;
+        margin-right: 10px;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+      }
+      
+      /* Style the tag icon */
+      .post-tag i {
+        margin-right: 5px;
+      }
+      
+      /* Style the hover effect */
+      .post-container:hover {
+        transform: scale(1.05);
+      }
+      
+      /* Style the active state of the tag */
+      .post-tag.active {
+        background-color: #ddd;
+      }
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #F2F2F2;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 50px 20px;
+}
+
+.title {
+	font-size: 60px;
+	font-weight: 700;
+	color: #333;
+	text-align: center;
+	margin-bottom: 50px;
+	text-shadow: 2px 2px #ccc;
+}
+
+.text {
+	font-size: 20px;
+	line-height: 1.5;
+	color: #555;
+	text-align: justify;
+}
+
+    </style>
+  </head>
+  <body>
+<div class="container">
+		<h1 class="title">Available Templates For Now:</h1>
+</div>
+    <!-- The post container that redirects to another page on click -->
+    <a href="webs/1EX9200039992003992039230923002399232">
+      <div class="post-container">
+        <!-- The post image -->
+        <img class="post-image" src="https://olamweb.phonesallowed.repl.co/images/Screenshot 2023-05-06 133456.png" alt="Post Image">
+        <!-- The post content -->
+        <div class="post-content hide">
+          <h1 class="post-title">Post Title</h1>
+          <p class="post-description">Post Description</p>
+          <div class="post-tags">
+            <span class="post-tag" onclick="toggleTag(this)"><i class="fa fa-tag"></i>Tag 1</span>
+            <span class="post-tag" onclick="toggleTag(this)"><i class="fa fa-tag"></i>Tag 2</span>
+            <span class="post-tag" onclick="toggleTag(this)"><i class="fa fa-tag"></i>Tag 3</span>
+          </div>
+        </div>
+      </div>
+    </a>
+<a href="webs/2EX920003999200399203923092300239923">
+      <div class="post-container">
+        <!-- The post image -->
+        <img class="post-image" src="https://olamweb.phonesallowed.repl.co/images/Screenshot 2023-05-06 133436.png" alt="Post Image">
+        <!-- The post content -->
+        <div class="post-content hide">
+          <h1 class="post-title">Post Title</h1>
+          <p class="post-description">Post Description</p>
+          <div class="post-tags">
+            <span class="post-tag" onclick="toggleTag(this)"><i class="fa fa-tag"></i>Tag 1</span>
+            <span class="post-tag" onclick="toggleTag(this)"><i class="fa fa-tag"></i>Tag 2</span>
+            <span class="post-tag" onclick="toggleTag(this)"><i class="fa fa-tag"></i>Tag 3</span>
+          </div>
+        </div>
+      </div>
+    </a>
+<a href="webs/THEX920003999200399203923092300239923">
+      <div class="post-container">
+        <!-- The post image -->
+        <img class="post-image" src="https://olamweb.phonesallowed.repl.co/images/Screenshot 2023-05-06 133418.png" alt="Post Image">
+        <!-- The post content -->
+        <div class="post-content hide">
+          <h1 class="post-title">Post Title</h1>
+          <p class="post-description">Post Description</p>
+          <div class="post-tags">
+            <span class="post-tag" onclick="toggleTag(this)"><i class="fa fa-tag"></i>Tag 1</span>
+            <span class="post-tag" onclick="toggleTag(this)"><i class="fa fa-tag"></i>Tag 2</span>
+            <span class="post-tag" onclick="toggleTag(this)"><i class="fa fa-tag"></i>Tag 3</span>
+          </div>
+        </div>
+      </div>
+    </a>
+<div class="container">
+<a class="title1"href="#">Are you Lost? Go to Home Page</a>
+</div>
+
+
+
+<style>
+  body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #F2F2F2;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 50px 20px;
+}
+
+.title1 {
+	font-size: 20px;
+	font-weight: 700;
+	color: #333;
+	text-align: center;
+	margin-bottom: 50px;
+	text-shadow: 2px 2px #ccc;
+}
+
+.text {
+	font-size: 20px;
+	line-height: 1.5;
+	color: #555;
+	text-align: justify;
+}
+
+</style>
+<div class="container">
+<footer>
+		<p class="title1">For Further information contact support at <a href="mailto:olampearts@gmail.com">olampearts@gmail.com</a></p>
+	</footer>
+</div>
+    <!-- Script to toggle the post content -->
+    <script>
+      function togglePostContent() {
+        var postContent = document.querySelector('.post-content
