@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+ <link rel="shortcut icon" href="https://olamweb.phonesallowed.repl.co/images/favicon.ico" type="image/x-icon">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+    <title>OlamWeb - Pre-Made Web Video - Emaple 3</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="video-container">
+      <video src="vids/05062.mp4" controls></video>
+    </div>
+    <div class="button-container">
+      <button onclick="redirectToPage3()">Purchase</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
